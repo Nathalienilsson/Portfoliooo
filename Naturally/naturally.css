@@ -1,0 +1,96 @@
+body {
+  background-color: #f0e9e5;
+  margin: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #2a2f37;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+}
+
+belly {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+H2 {
+  font-family: Afterglow, sans-serif;
+  font-size: 2em;
+  padding-bottom: 0.5rem;
+}
+ul {
+  list-style: none;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 376px;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  margin-bottom: 4rem;
+}
+right {
+  display: flex;
+  flex-direction: column;
+}
+left {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: bebas-neue-pro, sans-serif;
+}
+
+column {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.l {
+  font-family: bebas-neue-pro, sans-serif;
+  font-size: 2em;
+  padding-bottom: 0.5rem;
+}
+.space {
+  padding-bottom: 1rem;
+}
+.empty {
+  height: 4rem;
+}
+.border {
+  border: #fff;
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 0.5rem;
+}
+.back {
+  display: flex;
+}
+a:visited {
+  text-decoration: none;
+  color: #2a2f37;
+}
+a {
+  text-decoration: none;
+}
+.back:hover {
+  color: rgb(164, 164, 164);
+}
+
+.osynlig {
+  color: #f0e9e5;
+}
+.width {
+  width: min-content;
+}
+.small {
+  width: 440px;
+}
